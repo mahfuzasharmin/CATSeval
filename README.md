@@ -1,3 +1,3 @@
 # CATStest
 
-This repo aplplied the CATS tool on 14 hallmarks and 23 cancertypes
+This repo evaluated the CATS tool (https://github.com/hannenhalli-lab/CATS) on 14 hallmarks from cancerSEA and 23 cancertypes from TCGA
