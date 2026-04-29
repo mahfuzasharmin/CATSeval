@@ -183,7 +183,7 @@ load_genelist <- function(cancerType, signature){
     genetab =  read.table(genefile, sep="\t", header=TRUE)
     geneList = genetab$Symbol
   }else{
-    genefile = glue("{PROJECT_location}/Step3-Prune_DE2/{cancerType}/{cancerType}_{signature}_DE2")
+    genefile = glue("{PROJECT_location}/Step3-Prune_DE/{cancerType}/{cancerType}_{signature}_DE2")
     
     genetab =  read.table(genefile, sep="\t", header=TRUE)
     geneList = genetab$x
